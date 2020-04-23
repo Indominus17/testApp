@@ -4,13 +4,10 @@ import { Helmet } from 'react-helmet'
 import './App.css';
 
 function App() {
-  return (
-    <>
-    <Helmet>
-          <title>{ TITLE }</title>
-    </Helmet>
-    </>
+
+  return (   
     <div className="App">
+      <title>Task Scheduler</title>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
