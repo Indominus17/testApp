@@ -1,13 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
-import { Helmet } from 'react-helmet'
 import './App.css';
 
 function App() {
-
-  return (   
+  return (
     <div className="App">
-      <title>Task Scheduler</title>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
